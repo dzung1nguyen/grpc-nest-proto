@@ -5,7 +5,7 @@ service OrderService {
 }
 
 message CreateOrderRequest {
-    int32 productId = 1;
+    string productId = 1;
     int32 quantity  = 2;
     string userId = 3;
 }
